@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".TodoListManagerActivity"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#FFDF00"
+    android:alpha="0.7">    
+    
+   	<EditText
+  	    android:id="@+id/edtNewItem"
+    	android:layout_width="fill_parent"
+      	android:layout_height="50dp" 
+       	android:alpha="1.0"
+       	android:layout_marginLeft="10dp"
+  	    android:layout_marginRight="10dp"
+       	android:layout_marginTop="10dp"      	
+    	android:textSize="22sp"
+       	android:padding="5dp"
+       	android:background="@android:color/background_light"
+       	android:width="400dp"
+       	android:textColor="#000"
+       	android:height="80dp"
+       	android:inputType="text" />
+    
+	<LinearLayout
+    	android:layout_margin="10dp"
+    	android:padding="10dp"
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="match_parent"
+    	android:background="#000000"
+    	android:alpha="0.9">
+	    
+  		<ListView
+  		    android:id="@+id/lstTodoItems"
+  		    android:alpha="1.0"
+  		    android:background="@android:color/background_light"
+  		    android:padding="5dp"
+  		    android:textColor="#000"
+  		    android:textSize="20sp"
+       		android:layout_width="fill_parent"
+        	android:layout_height="match_parent"
+        	android:layout_marginBottom="10dp" />
+  		
+	</LinearLayout>
+	
+</LinearLayout>
